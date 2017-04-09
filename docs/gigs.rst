@@ -19,17 +19,17 @@ Furnishing web server with linux packages
 
 Begin with a freshly installed Linux server. The scripts will install a sound combination of packages needed for the function of
 
-*firewall
-*load balancer
-*development
-*database
-*webserver
+* firewall
+* load balancer
+* development
+* database
+* webserver
 
 The input to the scripts will be:
 
-*login credentials
-*IP address
-*host name
+* login credentials
+* IP address
+* host name
 
 The scripts can be deployed many times for each new server again.
 
