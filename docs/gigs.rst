@@ -45,7 +45,7 @@ Copy the required directories from one source linux system to another destinatio
  dir2018-02-01-05
  dir2018-02-01-04
 
- Any of the copies containes all source files, also the unchanged ones (by using hard links). It is possible to delete any of the copies separately,e.g.:
+Any of the copies containes all source files, also the unchanged ones (by using hard links). It is possible to delete any of the copies separately,e.g.:
 
 .. code-block:: guess
 
