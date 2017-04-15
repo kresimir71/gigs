@@ -66,7 +66,7 @@ The key and certificate files are concatinated to one file per domain or subdoma
  
 The renewal is scheduled and is automated.
 
-Obtaining domainname and SSL for volitile IP addresses
+Obtaining domainname and SSL for volatile IP addresses
 #########################################################
 
 Your IP address at home is not fixed but subject to change as needed by your internet provider. It could change once per year or every month, on average.
