@@ -14,6 +14,16 @@ How does it work?
 
 A list containes a short description for each functionality you can be interested in. It should give a basic picture of how does it work for me and how it could work for you.
 
+What kind of copyright do you get?
+====================================================
+
+The software you receive will usually be licensed by a license equivalent to the MIT free software license. (Except when that is not possible because already derived from e.g. GPL licensed software).
+
+Excuses
+*********************************
+
+Apologises for taking a global name 'gigs' at 'readthedocs' for my private offer - it happened before I was aware of it.
+
 Furnishing web server with linux packages
 ##################################################
 
