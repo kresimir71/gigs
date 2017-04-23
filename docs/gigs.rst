@@ -92,6 +92,37 @@ Liquid cooling of your computer system
 
 With the current internet speeds available also at home it becomes feasible to have an internet server at home. With liquid cooling the system is likely to have less impact on your home environment.
 
+Google Adwords
+#############################################################
+
+This is a way of promoting a website by using Google advertising. For a small amount of money payed per click to Google, when the amount is higher than what other users have payed for the same keywords, your site advertisement will be highlighted in the search results. The utility is very convenient because you can also see how often your site has been shown to the customers of the search engine:"An impression is counted each time your ad is served on Google's ad networks". Google provides free of charge online coaching for beginners.
+
+Setting DNS record by a script
+################################################################
+
+Suppose there is a new domainname or an old domainname for which you need to change the DNS record so that it points to an IP address. It is convenient to configure the DNS record by using a script. Input to the script is the domainname and the IP address of the server to point to. If the required subdomain does not exist yet, it will be created.
+
+Emacs tags
+############################################################
+
+The classical programmers editor Emacs (and XEmacs) has the possibility to search in the source files for the name of variables and functions. The shell 'etags' utility is used to index the given files and directories. 'etags' has built in syntax recognition for the most languages. Besides that I use a lot what we can call 'custom tagging'. For instance I choose the name for TAG, like TAG1 and mark the interesting places in the source files like:
+
+.. code-block:: guess
+
+ // TAG1(bash_shell_some_interesting_snippet)
+
+The same tag is enlisted in an index file, e.g. index.txt:
+
+.. code-block:: guess
+
+ // TAG1(bash_shell_some_interesting_snippet)
+
+This gives the possibility to jump from index.txt within emacs to all occurrences of a given tag.
+
+Sending email from your server
+############################################################
+
+Contrary to what common opinion could be, sending email from your server is not a trivial problem because there can be receivers which will clasify the IP address of your server as a possible SPAM source. The suggested solutions here are 'Turbosmtp' and 'Google mail' e-mail sending providers. There are also excelent Wordpress plugins specialised in these two providers. I would suggest configuring a *dedicated server for relaying the mail* of all your other servers to the e-mail sending provider.
 
 .. API
 .. ********************************
