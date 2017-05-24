@@ -129,9 +129,9 @@ GNU automake system
 
 GNU automake is a sofisticated configuration and build system for usage with C/C++ sources and also any other programming language in order to make, test, organize, distribute, build, install a software project.
 
-One recent project in which I have used 'GNU automake' is http://libkk71swigphp.readthedocs.io .
+One recent project in which I have used 'GNU automake' is http://libkk71swigphp.readthedocs.io . It is about using C++ libraries from PHP. It works in WordPress!
 
-Boilerplate templates im m4 and php
+Boilerplate templates in m4 and php
 ############################################################
 
 Boilerplate templates is my favourite trick. The languages used are m4,php,emacs lisp, but the best results are achieved by a combination of them.
@@ -139,7 +139,7 @@ Boilerplate templates is my favourite trick. The languages used are m4,php,emacs
 ttt templates
 ***************************************************************
 
-This is a suite of scripts that processe boilerplate templates written in php. It works like this:
+This is a suite of scripts that processes boilerplate templates written in php. It works like this:
 
 The utility takes a directory tree of template files of three sorts:
 
