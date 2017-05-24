@@ -206,6 +206,8 @@ The other files which do not have .phptt extension suffix will not be processed 
 Example: Wordpress customizer snippets
 ====================================================================
 
+It is about programming the customizer, a submenu of the WordPress admin menu.
+
 Note that the templates here are php templates which also produce php code!
 
 
