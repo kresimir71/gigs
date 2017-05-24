@@ -111,7 +111,7 @@ The classical programmers editor Emacs (and XEmacs) has the possibility to searc
 
  // TAG1(bash_shell_some_interesting_snippet)
 
-The same tag is enlisted in an index file, e.g. index.txt:
+The same tag is listed in an index file, e.g. index.txt:
 
 .. code-block:: guess
 
@@ -123,6 +123,13 @@ Sending email from your server
 ############################################################
 
 Contrary to what common opinion could be, sending email from your server is not a trivial problem because there can be receivers which will clasify the IP address of your server as a possible SPAM source. The suggested solutions here are 'Turbosmtp' and 'Google mail' e-mail sending providers. There are also excelent Wordpress plugins specialised in these two providers. I would suggest configuring a *dedicated server for relaying the mail* of all your other servers to the e-mail sending provider.
+
+GNU automake system
+############################################################
+
+GNU automake is a sofisticated configuration and build system for usage with C/C++ sources and also any other programming language in order to make, test, organize, distribute, build, install a software project.
+
+One recent project in which I have used 'GNU automake' is http://libkk71swigphp.readthedocs.io .
 
 .. API
 .. ********************************
