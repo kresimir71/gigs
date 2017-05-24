@@ -141,53 +141,64 @@ ttt templates
 
 This is a suite of scripts that processe boilerplate templates written in php. It works like this:
 
- The utility takes a directory tree of template files of three sorts:
+The utility takes a directory tree of template files of three sorts:
 
-path/name
-path/name.phptt
-path/name.php.phptt
+.. code-block:: guess
+
+ path/name
+ path/name.phptt
+ path/name.php.phptt
 
 where 'path' and 'name' can also be string templates like
 
-dir1_{ttt_var1}/dir2_{ttt_var2}/file_{ttt_var3}.txt.phptt
+.. code-block:: guess
+
+ dir1_{ttt_var1}/dir2_{ttt_var2}/file_{ttt_var3}.txt.phptt
 
 where the variables like 'ttt_var1' will be defined in the shell script settings.sh which is an input to the processing. The prefix ttt_ for the variables is required.
 
 The files of the form 
 
 .. code-block:: guess
+
  path/name.php.phptt
 
 will be processed by 'php' by using 
 
 .. code-block:: guess
+
  require 'settings.php' 
 
 first, where settings.php is an input configuration file to the process. The result will be the file
 
 .. code-block:: guess
+
  path/name.php
 
 in which a search/replace will be done:
 
 .. code-block:: guess
+
  >?php with <?php and ?< with ?>
 
-(That defines how php template is done in php.)
+(That defines how template that has to result in php source is processed: php template which produces php!)
 
 The files of the form 
 
 .. code-block:: guess
+
  path/name.phptt
 
 will be processed by 'php' by using 
 
 .. code-block:: guess
+
  require 'settings.php' 
 
 first, where settings.php is an input configuration file to the process. The result will be the file
 
 .. code-block:: guess
+
  path/name
 
 The other files which do not have .phptt extension suffix will not be processed and will be left as they are.
