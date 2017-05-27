@@ -155,7 +155,7 @@ where 'path' and 'name' can also be string templates like
 
  dir1_{ttt_var1}/dir2_{ttt_var2}/file_{ttt_var3}.txt.phptt
 
-where the variables like 'ttt_var1' will be defined in the shell script settings.sh which is an input to the processing. The prefix ttt_ for the variables is required.
+where the variables like 'ttt_var1' will be defined in the shell script settings.sh which is an input to the processing. The prefix 'ttt_' for the variables is required.
 
 The files of the form 
 
@@ -206,7 +206,7 @@ The other files which do not have .phptt extension suffix will not be processed 
 Example: Wordpress customizer snippets
 ====================================================================
 
-It is about programming the customizer, a submenu of the WordPress admin menu.
+It is about programming 'the customizer', a submenu of the WordPress admin menu.
 
 Note that the templates here are php templates which also produce php code!
 
