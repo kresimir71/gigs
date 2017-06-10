@@ -95,7 +95,7 @@ With the current internet speeds available also at home it becomes feasible to h
 Google Adwords
 #############################################################
 
-This is a way of promoting a website by using Google advertising. For a small amount of money payed per click to Google, when the amount is higher than what other users have payed for the same keywords, your site advertisement will be highlighted in the search results. The utility is very convenient because you can also see how often your site has been shown to the customers of the search engine:"An impression is counted each time your ad is served on Google's ad networks". Google provides free of charge online coaching for beginners.
+This is a way of promoting a website by using Google advertising. For a small amount of money payed per click to Google, when the amount is higher than what other users have payed for the same keywords, your site advertisement will be highlighted in the search results. The utility is very convenient because you can also see how often your site has been shown to the customers of the search engine: "An impression is counted each time your ad is served on Google's ad networks". Google provides free of charge online coaching for beginners.
 
 Setting DNS record by a script
 ################################################################
@@ -209,6 +209,25 @@ Example: Wordpress customizer snippets
 It is about programming 'the customizer', a submenu of the WordPress admin menu.
 
 Note that the templates here are php templates which also produce php code!
+
+WordPress websites in Upfront
+############################################################
+
+Upfront is an extremly user-friendly editor for creating modern
+responsive websites in Wordpress, provided by WPMUDEV.
+
+Protecting the server by rejecting ip addresses in firewall
+#################################################################
+
+Firewall on linux systems is realised by iptables. By allowing only
+selected set of IP addresses to make connection from outside, you can
+work on a website in private without possibility of access from other
+IP. Or you can use this facility to close SSH port and so keep your
+logs clean of bots trying to log in.
+
+In all cases there are secret URLs configured on the server with one
+purpose: a hit to that URL makes the connecting source IP
+allowed. Manual adding of an IP is also possible.
 
 
 .. API
