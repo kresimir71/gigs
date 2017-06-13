@@ -229,6 +229,25 @@ In all cases there are secret URLs configured on the server with one
 purpose: a hit to that URL makes the connecting source IP
 allowed. Manual adding of an IP is also possible.
 
+Creating documentation with Sphinx
+##############################################################
+
+Sphinx is a simple way of writing documents. The input is very much
+readable: that's very good for version control (i.e. git) because you
+can easily see the changes made.
+
+After all this site has been made in Sphinx.
+For an example of input document, see the input of this document:
+
+http://gigs.readthedocs.io/en/latest/_sources/gigs.rst.txt
+
+There are many good, free of charge Sphinx courses to be found on internet, just type:
+
+.. code-block:: guess
+ youtube python sphinx
+
+in your favourite best search engine in the world.
+
 
 .. API
 .. ********************************
