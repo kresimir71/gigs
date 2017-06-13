@@ -243,7 +243,6 @@ http://gigs.readthedocs.io/en/latest/_sources/gigs.rst.txt
 
 There are many good, free of charge Sphinx courses to be found on internet, just type:
 
-.. code-block:: guess
  youtube python sphinx
 
 in your favourite best search engine in the world.
