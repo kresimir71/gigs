@@ -250,7 +250,7 @@ in your favourite best search engine in the world.
 You get PDF, HTML, Epub output formats. When the source is on 'github'
 then an automatic output appears on 'readthedocs' site. You can also
 have your own, local, internal, secured, safe 'readthedocs' server for
-your company documents.
+your company documents created from your secure local repositories..
 
 
 .. API
