@@ -250,7 +250,31 @@ in your favourite best search engine in the world.
 You get PDF, HTML, Epub output formats. When the source is on 'github'
 then an automatic output appears on 'readthedocs' site. You can also
 have your own, local, internal, secured, safe 'readthedocs' server for
-your company documents created from your secure local repositories..
+your company documents created from your secure local repositories.
+
+Video surveillance site
+##############################################################
+
+Offered is a complete software and documentation for installation,
+usage and maintenance of a camera surveillance site like:
+
+https://camera.stand71.click
+
+with or without online shop. In this
+manner you can manage your own surveillance site on your own server,
+hosting hundreds of cameras, without the possibility of other parties
+to watch your videos. Supported are all cameras sending images to a
+ftp server.
+
+An example of a camera surveillance site with the fresh videos of the
+recent days can be found on the example site. It is about securing the barn of
+my house.  You need a camera that can send images by the FT protocol
+to the server. Than on the server the images you send are used to
+produce hourly and daily videos. If your camera has motion detection
+then you should turn that facility on and have picture only when there
+is some action. If your camera does not have motion detection then I
+have some ongoing development to show only motion in the videos
+anyway. 
 
 
 .. API
