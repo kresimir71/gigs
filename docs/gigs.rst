@@ -262,8 +262,8 @@ https://camera.stand71.click
 
 with or without online shop. In this
 manner you can manage your own surveillance site on your own server,
-hosting hundreds of cameras, without the possibility of other parties
-to watch your videos. Supported are all cameras sending images to a
+hosting hundreds of cameras, excluding the danger that the other parties
+will watch your videos. Supported are all cameras sending images to a
 ftp server.
 
 An example of a camera surveillance site with the fresh videos of the
