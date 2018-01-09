@@ -276,6 +276,12 @@ is some action. If your camera does not have motion detection then I
 have some ongoing development to show only motion in the videos
 anyway. 
 
+Multiple websites using one PayPal account
+##############################################################
+
+PayPal only allows you to set a single IPN URL and that limits its use to a single website. If you want to receive payments via PayPal on multiple websites then you need to put a special script on one of your domains, as an IPN URL in paypal you put the URL of that script and finally in that script you add your "real" IPNs from your various sites (any other domain of yours) that need to receive IPN calls.
+
+That is the solution I have implemented and tested successfully. 
 
 .. API
 .. ********************************
