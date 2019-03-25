@@ -87,6 +87,13 @@ The renewal of SSL certificate is automated.
 
 The system monitors its IP address and when it changes, the scripts change the DNS records to point to the new IP address and also obtain a new SSL certificate.
 
+Multilingual pages
+#############################################################
+
+A tourist guide for Amsterdam has been produced in many languages using online automatic translation machines. A separate subsite of a WordPress network is used for each translation.
+
+https://ja.a2018.nl/welcome/transport/bycar/parkandride/
+
 Liquid cooling of your computer system
 #############################################################
 
@@ -122,7 +129,7 @@ This gives the possibility to jump from index.txt within emacs to all occurrence
 Sending email from your server
 ############################################################
 
-Contrary to what common opinion could be, sending email from your server is not a trivial problem because there can be receivers which will classify the IP address of your server as a possible SPAM source. The suggested solutions here are 'Turbosmtp' and 'Google mail' e-mail sending providers. There are also excelent Wordpress plugins specialised in these two providers. I would suggest configuring a *dedicated server for relaying the mail* of all your other servers to the email sending provider. That is indeed a solution I use successfully to send email from any of my servers via one dedicated server to gmail. The solution includes automated scripts to enable a new server to be able to send an email via the relay. The relay is secured by firewall which allows only the configured IP addresses to access it. Only the dedicated server needs the credentials.
+Contrary to what common opinion could be, sending email from your server is not a trivial problem because there can be receivers which will classify the IP address of your server as a possible SPAM source. The suggested solutions here are 'Turbosmtp' and 'Google mail' e-mail sending providers. There are also excellent Wordpress plugins specialised in these two providers. I would suggest configuring a *dedicated server for relaying the mail* of all your other servers to the email sending provider. That is indeed a solution I use successfully to send email from any of my servers via one dedicated server to gmail. The solution includes automated scripts to enable a new server to be able to send an email via the relay. The relay is secured by firewall which allows only the configured IP addresses to access it. Only the dedicated server needs the credentials.
 
 GNU automake system
 ############################################################
