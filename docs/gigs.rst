@@ -224,12 +224,6 @@ It is about programming 'the customizer', a submenu of the WordPress admin menu.
 
 Note that the templates here are php templates which also produce php code!
 
-WordPress websites in Upfront
-############################################################
-
-Upfront is an extremly user-friendly editor for creating modern
-responsive websites in Wordpress, provided by WPMUDEV.
-
 Protecting the server by rejecting ip addresses in firewall
 #################################################################
 
