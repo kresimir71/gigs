@@ -143,6 +143,9 @@ GNU automake system
 
 GNU automake is a sofisticated configuration and build system for usage with C/C++ sources and also any other programming language in order to make, test, organize, distribute, build, install a software project.
 
+Utilising 'swig' to call c/c++ from php
+*********************************************************************
+
 One recent project in which I have used 'GNU automake' is http://libkk71swigphp.readthedocs.io . It is about using C++ libraries from PHP. It works in WordPress!
 
 Boilerplate templates in m4 and php
