@@ -101,6 +101,13 @@ Remedial teaching site contains a contact form and a Messenger chat for visitors
 
 https://bijles.w71.eu/
 
+Site for sharing vehicles between friends and neighbors
+###################################################################
+
+This site helps for free when sharing vehicles between friends and neighbors. It has an appointment calendar for that purpose. You can register multiple users with their own password and e-mail.
+
+https://autodelen.w71.eu/
+
 Liquid cooling of your computer system
 #############################################################
 
